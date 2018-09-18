@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assessment Calculator</title>
+<link rel="icon" href="favicon.ico">
+<!-- Mirrored from www.w3schools.com/w3css/demo_template_webpage.htm by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:04:53 GMT -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#337ab7">
+<!-- Windows Phone -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<script>
+
+function res()
+{
+ document.getElementById('res').style="display:none";
+
+}
+
+function calc(n)
+{
+   document.getElementById("100").innerText="    "+n;
+   document.getElementById("30").innerText=' 30  --> '+(n*0.3).toFixed(0);
+   document.getElementById("45").innerText=' 45  --> '+(n*0.45).toFixed(0);
+   document.getElementById("75").innerText=' 75  --> '+(n*0.75).toFixed(0);
+   document.getElementById('res').style="display:block";
+}
+
+
+</script>
+<body>
+<br>
+<div class="container">
+
+  <h1> Assessment Calculator </h1>
+  <h2>A Portal For Assessment Marks Calculation</h2>
+  <h3>Use this to calculate marks for 30,45 and 70.</h3>
+ 
+  <div class="dropdown">
+    <button onclick="res()" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Marks For 100
+    <span class="caret"></span></button>
+    <div id="res">
+    <h1 id="100" style="color:#990033;white-space:pre"></h1>
+    <h1 id="30" style="color:#cc6600"></h1>
+    <h1 id="45" style="color:#990033"></h1>
+    <h1 id="75" style="color:#cc6600"></h1>
+    </div>
+    
+   <ul class="dropdown-menu" style="font-size:25px">
+    <li onclick="calc(this.innerText)"><a href="#">1</a></li><li onclick="calc(this.innerText)"><a href="#">2</a></li><li onclick="calc(this.innerText)"><a href="#">3</a></li><li onclick="calc(this.innerText)"><a href="#">4</a></li><li onclick="calc(this.innerText)"><a href="#">5</a></li><li onclick="calc(this.innerText)"><a href="#">6</a></li><li onclick="calc(this.innerText)"><a href="#">7</a></li><li onclick="calc(this.innerText)"><a href="#">8</a></li><li onclick="calc(this.innerText)"><a href="#">9</a></li><li onclick="calc(this.innerText)"><a href="#">10</a></li><li onclick="calc(this.innerText)"><a href="#">11</a></li><li onclick="calc(this.innerText)"><a href="#">12</a></li><li onclick="calc(this.innerText)"><a href="#">13</a></li><li onclick="calc(this.innerText)"><a href="#">14</a></li><li onclick="calc(this.innerText)"><a href="#">15</a></li><li onclick="calc(this.innerText)"><a href="#">16</a></li><li onclick="calc(this.innerText)"><a href="#">17</a></li><li onclick="calc(this.innerText)"><a href="#">18</a></li><li onclick="calc(this.innerText)"><a href="#">19</a></li><li onclick="calc(this.innerText)"><a href="#">20</a></li><li onclick="calc(this.innerText)"><a href="#">21</a></li><li onclick="calc(this.innerText)"><a href="#">22</a></li><li onclick="calc(this.innerText)"><a href="#">23</a></li><li onclick="calc(this.innerText)"><a href="#">24</a></li><li onclick="calc(this.innerText)"><a href="#">25</a></li><li onclick="calc(this.innerText)"><a href="#">26</a></li><li onclick="calc(this.innerText)"><a href="#">27</a></li><li onclick="calc(this.innerText)"><a href="#">28</a></li><li onclick="calc(this.innerText)"><a href="#">29</a></li><li onclick="calc(this.innerText)"><a href="#">30</a></li><li onclick="calc(this.innerText)"><a href="#">31</a></li><li onclick="calc(this.innerText)"><a href="#">32</a></li><li onclick="calc(this.innerText)"><a href="#">33</a></li><li onclick="calc(this.innerText)"><a href="#">34</a></li><li onclick="calc(this.innerText)"><a href="#">35</a></li><li onclick="calc(this.innerText)"><a href="#">36</a></li><li onclick="calc(this.innerText)"><a href="#">37</a></li><li onclick="calc(this.innerText)"><a href="#">38</a></li><li onclick="calc(this.innerText)"><a href="#">39</a></li><li onclick="calc(this.innerText)"><a href="#">40</a></li><li onclick="calc(this.innerText)"><a href="#">41</a></li><li onclick="calc(this.innerText)"><a href="#">42</a></li><li onclick="calc(this.innerText)"><a href="#">43</a></li><li onclick="calc(this.innerText)"><a href="#">44</a></li><li onclick="calc(this.innerText)"><a href="#">45</a></li><li onclick="calc(this.innerText)"><a href="#">46</a></li><li onclick="calc(this.innerText)"><a href="#">47</a></li><li onclick="calc(this.innerText)"><a href="#">48</a></li><li onclick="calc(this.innerText)"><a href="#">49</a></li><li onclick="calc(this.innerText)"><a href="#">50</a></li><li onclick="calc(this.innerText)"><a href="#">51</a></li><li onclick="calc(this.innerText)"><a href="#">52</a></li><li onclick="calc(this.innerText)"><a href="#">53</a></li><li onclick="calc(this.innerText)"><a href="#">54</a></li><li onclick="calc(this.innerText)"><a href="#">55</a></li><li onclick="calc(this.innerText)"><a href="#">56</a></li><li onclick="calc(this.innerText)"><a href="#">57</a></li><li onclick="calc(this.innerText)"><a href="#">58</a></li><li onclick="calc(this.innerText)"><a href="#">59</a></li><li onclick="calc(this.innerText)"><a href="#">60</a></li><li onclick="calc(this.innerText)"><a href="#">61</a></li><li onclick="calc(this.innerText)"><a href="#">62</a></li><li onclick="calc(this.innerText)"><a href="#">63</a></li><li onclick="calc(this.innerText)"><a href="#">64</a></li><li onclick="calc(this.innerText)"><a href="#">65</a></li><li onclick="calc(this.innerText)"><a href="#">66</a></li><li onclick="calc(this.innerText)"><a href="#">67</a></li><li onclick="calc(this.innerText)"><a href="#">68</a></li><li onclick="calc(this.innerText)"><a href="#">69</a></li><li onclick="calc(this.innerText)"><a href="#">70</a></li><li onclick="calc(this.innerText)"><a href="#">71</a></li><li onclick="calc(this.innerText)"><a href="#">72</a></li><li onclick="calc(this.innerText)"><a href="#">73</a></li><li onclick="calc(this.innerText)"><a href="#">74</a></li><li onclick="calc(this.innerText)"><a href="#">75</a></li><li onclick="calc(this.innerText)"><a href="#">76</a></li><li onclick="calc(this.innerText)"><a href="#">77</a></li><li onclick="calc(this.innerText)"><a href="#">78</a></li><li onclick="calc(this.innerText)"><a href="#">79</a></li><li onclick="calc(this.innerText)"><a href="#">80</a></li><li onclick="calc(this.innerText)"><a href="#">81</a></li><li onclick="calc(this.innerText)"><a href="#">82</a></li><li onclick="calc(this.innerText)"><a href="#">83</a></li><li onclick="calc(this.innerText)"><a href="#">84</a></li><li onclick="calc(this.innerText)"><a href="#">85</a></li><li onclick="calc(this.innerText)"><a href="#">86</a></li><li onclick="calc(this.innerText)"><a href="#">87</a></li><li onclick="calc(this.innerText)"><a href="#">88</a></li><li onclick="calc(this.innerText)"><a href="#">89</a></li><li onclick="calc(this.innerText)"><a href="#">90</a></li><li onclick="calc(this.innerText)"><a href="#">91</a></li><li onclick="calc(this.innerText)"><a href="#">92</a></li><li onclick="calc(this.innerText)"><a href="#">93</a></li><li onclick="calc(this.innerText)"><a href="#">94</a></li><li onclick="calc(this.innerText)"><a href="#">95</a></li><li onclick="calc(this.innerText)"><a href="#">96</a></li><li onclick="calc(this.innerText)"><a href="#">97</a></li><li onclick="calc(this.innerText)"><a href="#">98</a></li><li onclick="calc(this.innerText)"><a href="#">99</a></li><li onclick="calc(this.innerText)"><a href="#">100</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
