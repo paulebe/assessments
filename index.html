@@ -23,9 +23,8 @@ function res()
 function calc(n)
 {
    document.getElementById("100").innerText="    "+n;
-   document.getElementById("30").innerText=' 30  --> '+(n*0.3).toFixed(0);
-   document.getElementById("45").innerText=' 45  --> '+(n*0.45).toFixed(0);
-   document.getElementById("75").innerText=' 75  --> '+(n*0.75).toFixed(0);
+    document.getElementById("30").innerText=' 40  --> '+(n*0.4).toFixed(0);
+   document.getElementById("45").innerText=' 60  --> '+(n*0.6).toFixed(0);
    document.getElementById('res').style="display:block";
 }
 
@@ -36,7 +35,7 @@ function calc(n)
 
   <h1> Assessment Calculator </h1>
   <h2>A Portal For Assessment Marks Calculation</h2>
-  <h3>Use this to calculate marks for 30,45 and 70.</h3>
+  <h3>Use this to calculate marks for 60 and 40.</h3>
  
   <div class="dropdown">
     <button onclick="res()" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Marks For 100
